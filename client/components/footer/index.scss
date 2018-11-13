@@ -1,0 +1,20 @@
+.flex-wrap {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.footer-container {
+  height: 90rpx;
+  flex-direction: row;
+  font-size: 24rpx;
+  background: linear-gradient(to left, #FA4DBE 0, #FBAA58 100%);
+}
+
+.icon-container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

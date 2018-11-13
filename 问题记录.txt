@@ -1,0 +1,6 @@
+Q：执行 gulp dev 报错：Cannot find module '@babel/core'
+A：版本搭配问题，gulp-babel版本是最新的8，最后回退到7，npm install --save-dev gulp-babel@7 (参考：https://www.cnblogs.com/soyxiaobi/p/9554565.html)
+
+Q：执行 gulp dev 报错：Task function must be specified
+A：gulp版本问题，通过gulp -v发现本地gulp版本是4.0，gulp4和gulp3的写法不同，所以回退下版本（参考：https://www.cnblogs.com/evaxtt/p/9561091.html）
+

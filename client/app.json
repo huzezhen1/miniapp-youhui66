@@ -1,0 +1,15 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/top100/top100",
+    "pages/whole/whole"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "优惠六六",
+    "navigationBarTextStyle": "black"
+  }
+}

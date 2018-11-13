@@ -1,0 +1,27 @@
+<view class="container">
+  <!-- 标题栏 -->
+  <header title="领券直播"></header>
+  <view>
+    <!-- 轮播图 -->
+    <view>
+      <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}">
+        <block wx:for="{{swiperList}}" wx:key="id">
+          <swiper-item>
+            <navigator url="/pages/top100/top100">
+              <image src="{{item.pic}}" style="width:750rpx; height: 750rpx"></image>              
+            </navigator>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <!-- 列表 -->
+    <view>
+      <scroll-view></scroll-view>
+    </view>
+  </view>
+  <!-- 底部 --> 
+  <!-- <view>
+    <navigator url="/pages/top100/top100">TOP100</navigator>
+  </view> -->
+  <footer current="1" class="footer"></footer>
+</view>

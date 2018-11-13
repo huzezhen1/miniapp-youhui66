@@ -1,0 +1,4 @@
+<view class="container">
+  <header title="全站优惠券"></header>
+  <footer current="3"></footer>
+</view>

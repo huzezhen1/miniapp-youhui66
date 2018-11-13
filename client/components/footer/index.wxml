@@ -1,0 +1,9 @@
+<view class="footer-container flex-wrap">
+  <block wx:for="{{items}}" wx:key="id">
+    <!-- <navigator class="{{item.id === current ? 'on' : ''}} flex-item" url="{{item.url}}">{{item.title}}</navigator> -->
+    <navigator url="{{item.url}}" class="flex-item flex-wrap icon-container" data-url="{{item.url}}">
+      <icon type="{{item.id === current ? item.iconfill : item.icon}}" class="flex-item"></icon>
+      <text class="flex-item">{{item.title}}</text>
+    </navigator>
+  </block>
+</view>
